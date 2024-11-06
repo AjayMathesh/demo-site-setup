@@ -1,6 +1,6 @@
 # DEMO SITE SETUP PROCESS
 ====================================================================
-# cPanel setup for Multisite
+# cPanel setup
 1. Login to cPanel with Credentials
 2. Go to file manager -> public_html
 3. Create a folder with plugin slug.
@@ -11,6 +11,8 @@
 8. set user privileges by giving all privileges
 9. Download Wordpress from wordpress.org
 10. Paste and extract the WordPress zip file in the above created folder(step 3)
+11. Setup and install the wordpress site by accessing the endpoint of the domain in cPanel
+12. Give the Database credentials(Database name and password) which you have created through cPanel (Step 4,5).
 
 # To activate multisite in WordPress:
 1. Open the `wp-config.php` file from the WordPress folder.
