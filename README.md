@@ -90,7 +90,7 @@
     This shortcode will verify the Recaptcha process automatically.
 
 15. Go to My Sites -> Network Admin -> Multisite Cloner in the admin dashboard and check whether the URL of a site is correctly projected to the subsite that needs to be cloned.
-![image](https://github.com/user-attachments/assets/b54fadbc-6d96-40e0-b373-51ce52d23672)
+![image](https://github.com/user-attachments/assets/3813077e-baaf-42da-8439-46bdc0836359)
 
 ---
 
