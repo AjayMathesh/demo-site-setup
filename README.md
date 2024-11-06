@@ -73,6 +73,8 @@
 11. After adding a superadmin role, assign the superadmin role to the admin who manages this demo site.
 
 12. Restrict permissions and hide the necessary menus for the admin role.
+![image](https://github.com/user-attachments/assets/d60fdf8f-10a8-40fb-b858-b073c54c7fac)
+
 
     Why are we restricting for admin roles?
 
