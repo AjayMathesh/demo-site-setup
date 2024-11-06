@@ -62,8 +62,13 @@
 8. Go to the main site and follow the steps below:
 
 9. Go to the settings page of the AAM plugin.
+![aam](https://github.com/user-attachments/assets/7edcf03c-8018-459e-a089-000792279bc2)
+
 
 10. Add a new user role called "superadmin."
+![image](https://github.com/user-attachments/assets/bbf925fd-28d0-40ef-a835-f076807b4491)
+![image](https://github.com/user-attachments/assets/752d92f4-ede8-4b0a-a0fa-79fff5f7456a)
+
 
 11. After adding a superadmin role, assign the superadmin role to the admin who manages this demo site.
 
