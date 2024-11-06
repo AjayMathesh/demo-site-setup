@@ -62,10 +62,12 @@
 8. Go to the main site and follow the steps below:
 
 9. Go to the settings page of the AAM plugin.
+
 ![aam](https://github.com/user-attachments/assets/7edcf03c-8018-459e-a089-000792279bc2)
 
 
 10. Add a new user role called "superadmin."
+
 ![image](https://github.com/user-attachments/assets/bbf925fd-28d0-40ef-a835-f076807b4491)
 ![image](https://github.com/user-attachments/assets/752d92f4-ede8-4b0a-a0fa-79fff5f7456a)
 
@@ -73,6 +75,7 @@
 11. After adding a superadmin role, assign the superadmin role to the admin who manages this demo site.
 
 12. Restrict permissions and hide the necessary menus for the admin role.
+
 ![image](https://github.com/user-attachments/assets/d60fdf8f-10a8-40fb-b858-b073c54c7fac)
 
 
@@ -90,6 +93,8 @@
     This shortcode will verify the Recaptcha process automatically.
 
 15. Go to My Sites -> Network Admin -> Multisite Cloner in the admin dashboard and check whether the URL of a site is correctly projected to the subsite that needs to be cloned.
+For Eg:- Screenshot of WPBundle Demo site
+
 ![image](https://github.com/user-attachments/assets/3813077e-baaf-42da-8439-46bdc0836359)
 
 ---
