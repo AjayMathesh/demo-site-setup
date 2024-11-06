@@ -1,5 +1,5 @@
 # DEMO SITE SETUP PROCESS
-===========================================================================================================
+====================================================================
 # cPanel setup for Multisite
 1. Login to cPanel with Credentials
 2. Go to file manager -> public_html
@@ -26,6 +26,7 @@
 6. After all this process you can see the My sites Menu on the top left of the admin dashbaord, where you can manage your multisite network.
    For Eg:-
    https://i0.wp.com/wordpress.org/support/files/2018/11/network-admin-link.png?fit=383%2C184&ssl=1
+7. To create new sub-site go to My Sites->Network Admin-> Add New site
 
    
 
