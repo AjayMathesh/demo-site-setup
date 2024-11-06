@@ -4,7 +4,8 @@
 1. Login to cPanel with Credentials
 2. Go to file manager -> public_html
 3. Create a folder with plugin slug.
-4. create new database by typing new name and create it.
+4. Go to mysql databases menu under databases section
+5. Create new database by typing new name and create it.
 6. Scroll down and create a database user 
 7. Assign a created user to the created database.
 8. set user privileges by giving all privileges
