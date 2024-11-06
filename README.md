@@ -55,10 +55,14 @@ Because anybody who visits the demosite will be logged in as admin so we are hid
 This shortcode will verify the recaptcha process automatically.
 15. Go to My Sites menu -> network admin->multisite cloner in admin dashboard and check whether the url of a site is correctly projected which you need to be cloned(sub site). 
  
-For understanding 
-Main site - Acts as a entry point, Recaptcha verification and Redirects to subsite by creating new demo instance
-Sub site - All the demo works should be done in this . this is the site which will be watched by the users
+For Understanding, 
+Main site - Acts as an entry point, performs Recaptcha verification, and redirects to the subsite by creating a new demo instance.
 
-After all the process. Check everything is working by accessing a endpoint
+Sub site - All demo work should be done here. This is the site that will be watched by the users.
+
+After completing all the steps, verify that everything is functioning correctly by accessing the endpoint.
+
+Ensure all configurations are correct, and test thoroughly for a smooth demo experience.
+
 
 
