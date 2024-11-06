@@ -37,7 +37,17 @@
 5. Activate store front child theme in the main site and storefront theme in sub site.
 6. Go to the ``wp-content`` folder and edit a file ```storefront-child-theme/header.php``` with the below content to design a header.
 7. After that install a AAM plugin in network
-``https://wordpress.org/plugins/advanced-access-manager/``
+https://wordpress.org/plugins/advanced-access-manager/
 The AAM plugin will help us to manage user roles and user specific access
+8. Go to main site
+9. Go to the settings page of AAM Plugin
+10. Add a new user role superadmin
+11. After adding a superadmin role, assign the super admin role to the admin who manages this demosite
+12. Restrict permissions and hide the neccessary menus for the admin role.
+```
+Why we are restricting for admin roles ? 
 
+Because anybody who visits the demosite will be logged in as admin so we are hiding
+```
+13. 
 
