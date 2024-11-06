@@ -39,7 +39,7 @@
 7. After that install a AAM plugin in network
 https://wordpress.org/plugins/advanced-access-manager/
 The AAM plugin will help us to manage user roles and user specific access
-# 8. Go to main site and follow the below steps
+8. Go to main site and follow the below steps
 9. Go to the settings page of AAM Plugin
 10. Add a new user role superadmin
 11. After adding a superadmin role, assign the super admin role to the admin who manages this demosite
@@ -53,5 +53,12 @@ Because anybody who visits the demosite will be logged in as admin so we are hid
 14. Paste the below shortcode in that page
 ``[cds_register]``
 This shortcode will verify the recaptcha process automatically.
+15. Go to My Sites menu -> network admin->multisite cloner in admin dashboard and check whether the url of a site is correctly projected which you need to be cloned(sub site). 
+ 
+For understanding 
+Main site - Acts as a entry point, Recaptcha verification and Redirects to subsite by creating new demo instance
+Sub site - All the demo works should be done in this . this is the site which will be watched by the users
+
+After all the process. Check everything is working by accessing a endpoint
 
 
