@@ -76,25 +76,23 @@
 
 12. Restrict permissions and hide the necessary menus for the admin role.
 
-![image](https://github.com/user-attachments/assets/d60fdf8f-10a8-40fb-b858-b073c54c7fac)
+    - **Restrict admin menus**: Restrict specific menus and meta box widgets as needed.
+    
+      - **Example**: Restrict WooCommerce settings access for demo site visitors.
 
-    i)Restrict admin menus (Which you need to hide) and some meta box widgets
-      For Eg: - If you need to restrict demo site visitors to access woocommerce settings
+        ![WooCommerce Restriction Example](https://github.com/user-attachments/assets/9d64b7cc-351e-4a18-ba3c-7090ac53c3bc)
       
-      ![image](https://github.com/user-attachments/assets/9d64b7cc-351e-4a18-ba3c-7090ac53c3bc)
+        You can restrict any necessary menus in a similar way.
 
-       Like this you can restrict the menus you needed.
+    - **Restrict certain capabilities**:
+      
+      In the image below, you’ll see the capabilities that should be removed for demo site visitors. Follow these steps:
+      
+      - Search for each capability individually to restrict it.
+      
+        ![Capability Restriction Example](https://github.com/user-attachments/assets/930755c9-f9eb-4375-9aa0-9148a8b9e14e)
 
-    ii) Restrict some capabilities 
-     In the below Image You can find the capabilities which should be removed for demo site visitors with explanation.
-     Restrict this capabilities by searching one by one
-     
-     ![image](https://github.com/user-attachments/assets/930755c9-f9eb-4375-9aa0-9148a8b9e14e)
-
-
-    Why are we restricting for admin roles?
-
-    Because anybody who visits the demo site will be logged in as an admin, so we are hiding certain elements.
+    **Note**: Restrictions are applied to the admin role because all demo site visitors are automatically logged in as admins. This ensures that certain elements remain hidden.
 
 13. Go to Pages and create a new page (Home page) and set this page as a static page in WordPress settings.
 
