@@ -78,6 +78,19 @@
 
 ![image](https://github.com/user-attachments/assets/d60fdf8f-10a8-40fb-b858-b073c54c7fac)
 
+    i)Restrict admin menus (Which you need to hide) and some meta box widgets
+      For Eg: - If you need to restrict demo site visitors to access woocommerce settings
+      
+      ![image](https://github.com/user-attachments/assets/9d64b7cc-351e-4a18-ba3c-7090ac53c3bc)
+
+       Like this you can restrict the menus you needed.
+
+    ii) Restrict some capabilities 
+     In the below Image You can find the capabilities which should be removed for demo site visitors with explanation.
+     Restrict this capabilities by searching one by one
+     
+     ![image](https://github.com/user-attachments/assets/930755c9-f9eb-4375-9aa0-9148a8b9e14e)
+
 
     Why are we restricting for admin roles?
 
