@@ -74,9 +74,8 @@
 
 11. After adding a superadmin role, assign the superadmin role to the admin who manages this demo site.
 
-### 12. Capabilities
-
-The following capabilities are available to configure user roles and permissions. These capabilities should be removed to restrict the admin role's access to sensitive settings and features:
+12. Capabilities
+These capabilities should be removed to restrict the admin role's access to sensitive settings and features:
 
 - `moderate_comments` - Restrict this capability to prevent users from moderating or managing site comments.
 - `manage_categories` - Restrict this capability to prevent users from adding, editing, or managing categories for posts.
