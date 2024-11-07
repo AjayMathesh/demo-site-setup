@@ -85,11 +85,38 @@
         You can restrict any necessary menus in a similar way.
 
     - **Restrict certain capabilities**:
-      
-      In the image below, you’ll see the capabilities that should be removed for demo site visitors. Follow these steps:
-      
-      - Search for each capability individually to restrict it.
-      
+        The following capabilities should be removed:
+- `moderate_comments` - Allows the user to moderate and manage site comments.
+- `manage_categories` - Allows the user to add, edit, and manage categories for posts.
+- `manage_links` - Allows the user to manage site links.
+- `unfiltered_html` - Allows the user to post unfiltered HTML (only for super admins).
+- `edit_files` - Allows the user to edit files in the file library.
+- `edit_theme_options` - Allows the user to edit theme options and settings.
+- `export` - Allows the user to export site content.
+- `publish_posts` - Allows the user to publish posts.
+- `read` - Allows the user to access and view the site.
+- `delete_others_pages` - Allows the user to delete pages created by others.
+- `delete_others_posts` - Allows the user to delete posts created by others.
+- `delete_pages` - Allows the user to delete pages.
+- `delete_posts` - Allows the user to delete posts.
+- `delete_private_pages` - Allows the user to delete private pages.
+- `delete_private_posts` - Allows the user to delete private posts.
+- `delete_published_pages` - Allows the user to delete published pages.
+- `delete_published_posts` - Allows the user to delete published posts.
+- `edit_others_pages` - Allows the user to edit pages created by others.
+- `edit_others_posts` - Allows the user to edit posts created by others.
+- `edit_pages` - Allows the user to edit pages.
+- `edit_posts` - Allows the user to edit posts.
+- `edit_private_pages` - Allows the user to edit private pages.
+- `edit_private_posts` - Allows the user to edit private posts.
+- `edit_published_pages` - Allows the user to edit published pages.
+- `edit_published_posts` - Allows the user to edit published posts.
+- `manage_categories` - Allows the user to manage categories.
+- `manage_links` - Allows the user to manage links.
+- `publish_pages` - Allows the user to publish pages.
+- `read_private_pages` - Allows the user to read private pages.
+- `read_private_posts` - Allows the user to read private posts.
+        
         ![Capability Restriction Example](https://github.com/user-attachments/assets/930755c9-f9eb-4375-9aa0-9148a8b9e14e)
 
     **Note**: Restrictions are applied to the admin role because all demo site visitors are automatically logged in as admins. This ensures that certain elements remain hidden.
