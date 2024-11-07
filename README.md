@@ -74,52 +74,42 @@
 
 11. After adding a superadmin role, assign the superadmin role to the admin who manages this demo site.
 
-12. Restrict permissions and hide the necessary menus for the admin role.
+### 12. Capabilities
 
-    - **Restrict admin menus**: Restrict specific menus and meta box widgets as needed.
-    
-      - **Example**: Restrict WooCommerce settings access for demo site visitors.
+The following capabilities are available to configure user roles and permissions. These capabilities should be removed to restrict the admin role's access to sensitive settings and features:
 
-        ![WooCommerce Restriction Example](https://github.com/user-attachments/assets/9d64b7cc-351e-4a18-ba3c-7090ac53c3bc)
-      
-        You can restrict any necessary menus in a similar way.
+- `moderate_comments` - Restrict this capability to prevent users from moderating or managing site comments.
+- `manage_categories` - Restrict this capability to prevent users from adding, editing, or managing categories for posts.
+- `manage_links` - Restrict this capability to prevent users from managing site links.
+- `unfiltered_html` - Restrict this capability to prevent users from posting unfiltered HTML (only allow for super admins).
+- `edit_files` - Restrict this capability to prevent users from editing files in the file library.
+- `edit_theme_options` - Restrict this capability to prevent users from editing theme options and settings.
+- `export` - Restrict this capability to prevent users from exporting site content.
+- `publish_posts` - Restrict this capability to prevent users from publishing posts.
+- `read` - Restrict this capability to control basic access and viewing permissions on the site.
+- `delete_others_pages` - Restrict this capability to prevent users from deleting pages created by others.
+- `delete_others_posts` - Restrict this capability to prevent users from deleting posts created by others.
+- `delete_pages` - Restrict this capability to prevent users from deleting pages.
+- `delete_posts` - Restrict this capability to prevent users from deleting posts.
+- `delete_private_pages` - Restrict this capability to prevent users from deleting private pages.
+- `delete_private_posts` - Restrict this capability to prevent users from deleting private posts.
+- `delete_published_pages` - Restrict this capability to prevent users from deleting published pages.
+- `delete_published_posts` - Restrict this capability to prevent users from deleting published posts.
+- `edit_others_pages` - Restrict this capability to prevent users from editing pages created by others.
+- `edit_others_posts` - Restrict this capability to prevent users from editing posts created by others.
+- `edit_pages` - Restrict this capability to prevent users from editing pages.
+- `edit_posts` - Restrict this capability to prevent users from editing posts.
+- `edit_private_pages` - Restrict this capability to prevent users from editing private pages.
+- `edit_private_posts` - Restrict this capability to prevent users from editing private posts.
+- `edit_published_pages` - Restrict this capability to prevent users from editing published pages.
+- `edit_published_posts` - Restrict this capability to prevent users from editing published posts.
+- `publish_pages` - Restrict this capability to prevent users from publishing pages.
+- `read_private_pages` - Restrict this capability to prevent users from reading private pages.
+- `read_private_posts` - Restrict this capability to prevent users from reading private posts.
 
-    - **Restrict certain capabilities**:
-        The following capabilities should be removed:
-- `moderate_comments` - Allows the user to moderate and manage site comments.
-- `manage_categories` - Allows the user to add, edit, and manage categories for posts.
-- `manage_links` - Allows the user to manage site links.
-- `unfiltered_html` - Allows the user to post unfiltered HTML (only for super admins).
-- `edit_files` - Allows the user to edit files in the file library.
-- `edit_theme_options` - Allows the user to edit theme options and settings.
-- `export` - Allows the user to export site content.
-- `publish_posts` - Allows the user to publish posts.
-- `read` - Allows the user to access and view the site.
-- `delete_others_pages` - Allows the user to delete pages created by others.
-- `delete_others_posts` - Allows the user to delete posts created by others.
-- `delete_pages` - Allows the user to delete pages.
-- `delete_posts` - Allows the user to delete posts.
-- `delete_private_pages` - Allows the user to delete private pages.
-- `delete_private_posts` - Allows the user to delete private posts.
-- `delete_published_pages` - Allows the user to delete published pages.
-- `delete_published_posts` - Allows the user to delete published posts.
-- `edit_others_pages` - Allows the user to edit pages created by others.
-- `edit_others_posts` - Allows the user to edit posts created by others.
-- `edit_pages` - Allows the user to edit pages.
-- `edit_posts` - Allows the user to edit posts.
-- `edit_private_pages` - Allows the user to edit private pages.
-- `edit_private_posts` - Allows the user to edit private posts.
-- `edit_published_pages` - Allows the user to edit published pages.
-- `edit_published_posts` - Allows the user to edit published posts.
-- `manage_categories` - Allows the user to manage categories.
-- `manage_links` - Allows the user to manage links.
-- `publish_pages` - Allows the user to publish pages.
-- `read_private_pages` - Allows the user to read private pages.
-- `read_private_posts` - Allows the user to read private posts.
-        
-        ![Capability Restriction Example](https://github.com/user-attachments/assets/930755c9-f9eb-4375-9aa0-9148a8b9e14e)
+![Capability Restriction Example](https://github.com/user-attachments/assets/930755c9-f9eb-4375-9aa0-9148a8b9e14e)
 
-    **Note**: Restrictions are applied to the admin role because all demo site visitors are automatically logged in as admins. This ensures that certain elements remain hidden.
+**Note**: Restrictions are applied to the admin role because all demo site visitors are automatically logged in as admins. This ensures that certain elements remain hidden.
 
 13. Go to Pages and create a new page (Home page) and set this page as a static page in WordPress settings.
 
